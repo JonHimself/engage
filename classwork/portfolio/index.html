@@ -10,18 +10,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jon Robeson's Portfolio</title>
-    <link href="styles/teststyles.css" rel="stylesheet" type="text/css" />
+    <style>
+      caption {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-bottom: 8px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid #0d1f2d;
+        border-collapse: collapse;
+        padding: 5px 10px;
+      }
+
+      table {
+        width: 90%;
+        margin: auto;
+      }
+
+      tr {
+        height: 30px;
+      }
+
+      th {
+        background-color: #546a7b;
+        color: #f2eded;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: #e4c3ad;
+      }
+    </style>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header><h1>Portfolio for Jon Robeson</h1></header>
-    <hr style="border: thin dotted red" />
+    <hr />
     <nav class="border">
       <p><a href="projects.html">Projects</a></p>
       <p><a href="contact.html">Contact Me</a></p>
       <p><a href="testimonials.html">Testimonials</a></p>
     </nav>
     <!-- Fix these ugly anchor tags-->
-    <hr style="width: 50%; border: 2px solid blueviolet" />
+    <hr />
     <section>
       <article id="about-me" class="border">
         <h2><em>About Me</em></h2>
@@ -74,10 +107,7 @@
           Lorem ipsum, <strong>dolor</strong> sit amet consectetur adipisicing
           elit. Omnis, doloribus voluptatum blanditiis ab in facere vero!
           Consequuntur
-          <span
-            style="background-color: lightcoral; border: 1px solid lightgreen"
-            >distinctio magnam repudiandae</span
-          >
+          <span>distinctio magnam repudiandae</span>
           nemo fuga culpa? Reprehenderit impedit, quisquam qui quasi commodi
           possimus!
         </p>
